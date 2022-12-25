@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Grid e Layout
+@import "./_partials/containers";
+
+// Font e Typography
+@import "./_partials/font";
+@import "./_partials/typography";
+
+// Button
+@import "./_partials/buttons";
+
+//Utils
+@import "./_partials/utils";
+
+body {
+  font-family: Mark Pro, sans-serif;
+
+  // @apply font-SequelSans bg-[#F5F4FC] dark:bg-gradient-to-r from-[#010101] to-[#121e2d];
+}
+
