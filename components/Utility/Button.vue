@@ -1,12 +1,19 @@
 <script setup lang="ts">
 defineProps({
   text: String,
+  path: String,
 })
 </script>
 
 <template>
-  <button class="px-8 py-3 rounded-lg bg-[#171F2B] text-[#6586C1]">
-    {{ text }}
+  <button
+    class="hover:underline dark:text-zinc-200 dark:hover:text-zinc-90 flex gap-2 "
+  >
+    <NuxtLink class="text-[#F4867E]" :to="path">
+      {{ text }}
+    </NuxtLink>
+
+    <IconsArrowRight />
   </button>
 </template>
 

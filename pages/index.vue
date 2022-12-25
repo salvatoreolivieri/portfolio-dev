@@ -3,6 +3,9 @@
 <template>
   <div>
     <!-- <h1 class="heading-1 font-bold text-5xl h-full">Dont be a stranger!</h1> -->
+
+    <SectionHero />
+
   </div>
 </template>
 

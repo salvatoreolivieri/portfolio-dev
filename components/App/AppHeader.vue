@@ -2,17 +2,11 @@
 import { navigation } from "./Navigation"
 
 const showMenu = ref(false)
-
-type Theme = "light" | "dark"
-const setColorTheme = (newTheme: Theme) => {
-  useColorMode().preference = newTheme
-  console.log(useColorMode())
-}
 </script>
 
 <template>
   <header
-    class="header-wrapper md:px-0 px-4 py-4 relative flex items-center gap-2 container"
+    class="header-wrapper md:px-0 px-4 py-4 md:py-8 relative flex items-center gap-2 container"
   >
     <!-- Profile Photo -->
     <div class="flex flex-1">
@@ -75,15 +69,12 @@ const setColorTheme = (newTheme: Theme) => {
     <div class="flex justify-end md:flex-1">
       <div class="pointer-events-auto">
         <button
-          @click="
-            setColorTheme($colorMode.preference === 'dark' ? 'light' : 'dark')
-          "
           type="button"
           aria-label="Toggle dark mode"
           class="group rounded-full bg-white/90 px-3 py-2 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20"
         >
-          <IconsDark v-if="$colorMode.value === 'light'" />
-          <IconsLight v-if="$colorMode.value === 'dark'" />
+          <IconsDark />
+          <IconsLight />
         </button>
       </div>
     </div>
@@ -107,7 +98,7 @@ const setColorTheme = (newTheme: Theme) => {
             @click="showMenu = false"
             viewBox="0 0 24 24"
             aria-hidden="true"
-            class="h-6 w-6 text-zinc-500 dark:text-zinc-400"
+            class="h-6 w-6 text-zinc-500 dark:text-zinc-400 cursor-pointer"
           >
             <path
               d="m17.25 6.75-10.5 10.5M6.75 6.75l10.5 10.5"
@@ -118,6 +109,7 @@ const setColorTheme = (newTheme: Theme) => {
               stroke-linejoin="round"
             ></path>
           </svg>
+          <h2 class="text-lg font-bold">Navigation</h2>
         </div>
         <nav class="mt-6">
           <ul

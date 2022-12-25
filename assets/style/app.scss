@@ -21,3 +21,7 @@ body {
   // @apply font-SequelSans bg-[#F5F4FC] dark:bg-gradient-to-r from-[#010101] to-[#121e2d];
 }
 
+::selection {
+  background-color: #F4867E;
+  color: #f4f4f5
+}

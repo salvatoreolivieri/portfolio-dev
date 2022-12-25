@@ -6159,8 +6159,8 @@ module.exports = {
     "extract": {},
     "transform": {}
   },
-  "darkMode": "class",
   "presets": [],
+  "darkMode": "media",
   "variantOrder": [
     "first",
     "last",
