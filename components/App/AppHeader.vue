@@ -121,9 +121,7 @@ const showMenu = ref(false)
               class="block py-2"
               data-headlessui-state="open"
             >
-              <NuxtLink :to="path">
-                {{ label }}
-              </NuxtLink>
+              <a :href="path">{{ label }}</a>
             </li>
           </ul>
         </nav>

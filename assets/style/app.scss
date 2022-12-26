@@ -9,19 +9,14 @@
 @import "./_partials/font";
 @import "./_partials/typography";
 
-// Button
+// Utility Component
 @import "./_partials/buttons";
+@import "./_partials/card";
 
-//Utils
+// Others Stuff
 @import "./_partials/utils";
 
-body {
-  font-family: Mark Pro, sans-serif;
-
-  // @apply font-SequelSans bg-[#F5F4FC] dark:bg-gradient-to-r from-[#010101] to-[#121e2d];
-}
-
 ::selection {
-  background-color: #F4867E;
-  color: #f4f4f5
+  background-color: #f4867e;
+  color: #f4f4f5;
 }

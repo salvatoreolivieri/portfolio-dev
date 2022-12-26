@@ -1,23 +1,3 @@
-@font-face {
-  font-family: "Poppins";
-  font-weight: 700;
-  font-display: swap;
-  font-display: block;
-  src: url("/fonts/Sequel-Sans-Bold.ttf") format("opentype");
-}
-
-@font-face {
-  font-family: "Poppins";
-  font-weight: 500;
-  font-display: swap;
-  font-display: block;
-  src: url("/fonts/Sequel-Sans-Medium.ttf") format("opentype");
-}
-
-@font-face {
-  font-family: "Poppins";
-  font-weight: 400;
-  font-display: swap;
-  font-display: block;
-  src: url("/fonts/Sequel-Sans-Regular.ttf") format("opentype");
+body {
+  font-family: Mark Pro, sans-serif;
 }

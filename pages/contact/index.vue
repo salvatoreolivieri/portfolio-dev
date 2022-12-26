@@ -20,7 +20,14 @@
         </h3>
 
         <p class="text-zinc-600 dark:text-zinc-200 text-center md:text-lg mb-4">
-          I embrace the wonders of diversity and I am always open to exchanging perspectives and points of view. Contact me to talk about a tech project, to explore philosophical topics, to tell me about some existential doubts that keep you up at night or just to explain me something crazy enough that it is worth sharing.
+          I embrace the <strong>wonders of diversity</strong> and I am always
+          open to exchanging <strong>perspectives</strong> and
+          <strong>points of view</strong>. Contact me to talk about
+          <strong>tech project</strong>, to explore
+          <strong>philosophical topics</strong>, to tell me about some
+          <strong>existential doubts</strong> that keep you up at night or just
+          to explain me <strong>something crazy enough</strong> that it is worth
+          sharing.
         </p>
 
         <!-- <UtilityButton text="Explore my philosophy" path="/philosophy" /> -->

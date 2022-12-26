@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>Projects</div>
+  <div class="container px-4">
+    <SectionProject />
+  </div>
 </template>
 
 <style scoped lang="scss"></style>

@@ -20,5 +20,5 @@ export default defineNuxtConfig({
     },
   },
   css: ["@/assets/style/app.scss"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
 })
