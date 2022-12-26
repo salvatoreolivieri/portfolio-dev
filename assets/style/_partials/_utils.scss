@@ -2,3 +2,20 @@
 .router-link-exact-active {
   @apply text-[#F4867E];
 }
+
+.creative-underline::after {
+  transition: all 0.1s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  height: 0.3em;
+  width: 50%;
+  left: -1%;
+  background: linear-gradient(
+    65deg,
+    #df058d 0%,
+    #df058d 100%,
+    rgba(255, 209, 0, 0) 100%
+  );
+}

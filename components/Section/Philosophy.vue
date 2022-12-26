@@ -30,14 +30,16 @@ import { philosophy } from "./PhilosophyPrinciples"
           class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
           >{{ subtitle }}</time
         >
-        <h3 class="text-2xl font-semibold text-gray-900 my-2 dark:text-white">
-          {{ title }}
-        </h3>
-        <p
-          class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
-        >
-        text goes here
-      </p>
+        <div class="relative">
+          <h3
+            class="text-2xl max-w-max font-semibold text-gray-900 my-2 dark:text-white creative-underline"
+          >
+            {{ title }}
+          </h3>
+        </div>
+        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+          text goes here
+        </p>
       </li>
     </ol>
   </div>

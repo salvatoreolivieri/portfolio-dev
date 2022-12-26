@@ -1,3 +1,5 @@
+<script lang="ts" setup></script>
+
 <template>
   <div>
     <NuxtLayout>
@@ -7,7 +9,7 @@
 </template>
 
 <style lang="scss">
-body{
-  @apply bg-white dark:bg-zinc-900
+body {
+  @apply bg-white dark:bg-zinc-900;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="hero-section-wrapper container px-4 md:px-6">
-    <div class="flex flex-col py-8 items-center md:pt-16 md:pb-20 w-full">
+    <div class="flex flex-col py-8 items-center md:pt-16 w-full">
       <span
         class="mb-4 md:mb-6 text-xs md:text-sm dark:text-zinc-100 text-zinc-800"
         >👋 Hello World!</span
@@ -16,7 +16,9 @@
         Web Software Engineer
       </h3>
 
-      <p class="text-zinc-600 dark:text-zinc-200 text-center md:text-lg mb-10">
+      <p
+        class="text-zinc-600 dark:text-zinc-200 text-center md:text-lg mb-10 px-4 md:px-0"
+      >
         I am a <strong>creative</strong>, <strong>humble</strong> e and
         <strong>life enthusiast</strong> Web Software engineer, with a keen
         passion for <strong>algorithms</strong> and
@@ -30,8 +32,9 @@
         <strong>questions</strong> away from the noise.
       </p>
 
-      <UtilityButton text="Explore my philosophy" path="/philosophy" />
+      <!-- <UtilityButton class="mb-30" text="Explore my philosophy" path="/philosophy" /> -->
 
+      <CreativeSeaMode />
     </div>
   </div>
 </template>
