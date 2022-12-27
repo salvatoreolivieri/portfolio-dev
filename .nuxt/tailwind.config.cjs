@@ -6160,8 +6160,7 @@ module.exports = {
     "transform": {}
   },
   "darkMode": [
-    "class",
-    "[data-mode=\"dark\"]"
+    "class"
   ],
   "presets": [],
   "variantOrder": [

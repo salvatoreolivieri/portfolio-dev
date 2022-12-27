@@ -1,10 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const showAnimation = ref(false)
+
+setTimeout(() => {
+  showAnimation.value = true
+}, 100)
+</script>
 
 <template>
   <div class="wrapper">
     <div>
       <label class="switch">
-        <input type="checkbox" checked disabled />
+        <input type="checkbox" :checked="showAnimation" disabled />
         <span class="slider">
           <div class="fish">
             <div class="body"></div>
@@ -121,7 +127,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: #e74a42;
+      background-color: transparent;
       transition: all 1.4s;
       border-radius: 50px;
       z-index: 100;

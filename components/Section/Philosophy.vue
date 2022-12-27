@@ -5,16 +5,16 @@ import { philosophy } from "./PhilosophyPrinciples"
 <template>
   <div class="philosophy-wrapper">
     <h1
-      class="md:text-5xl mb-1 md:mt-10 md:mb-8 font-bold text-3xl dark:text-zinc-100 text-zinc-800"
+      class="md:text-5xl mt-6 mb-4 md:mt-10 md:mb-6 font-bold text-3xl dark:text-zinc-100 text-zinc-800"
     >
       My Life Philosophy explained
     </h1>
 
     <p class="text-zinc-600 dark:text-zinc-200 md:text-lg mb-10">
-      Who am I and what is the meaning of life? Here you can find my personal
-      answer explained following four of my most profound paradigms and
-      thesis.<br /><br />
-      Let’s dive into it.
+      <strong>Who am I</strong> and what is the
+      <strong>meaning of life</strong>? <br> Here you can find
+      <strong>my personal answer</strong> explained following four of my most
+      profound <strong>paradigms</strong> and <strong>thesis</strong>.
     </p>
 
     <ol class="relative border-l border-gray-200 dark:border-gray-700 mx-2">
