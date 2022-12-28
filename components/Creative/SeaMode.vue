@@ -77,7 +77,7 @@ setTimeout(() => {
 
 <style scoped lang="scss">
 .wrapper {
-  margin-top: 170px;
+  margin-top: 210px;
   position: relative;
   .switch {
     position: absolute;

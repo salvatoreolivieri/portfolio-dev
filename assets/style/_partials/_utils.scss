@@ -2,3 +2,7 @@
 .router-link-exact-active {
   @apply text-[#F4867E];
 }
+
+body {
+  @apply bg-white dark:bg-zinc-900;
+}

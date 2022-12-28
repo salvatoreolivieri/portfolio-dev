@@ -33,10 +33,10 @@ const handleClose = (value: boolean) => {
           <li
             v-for="({ label, path }, index) in navigation"
             :key="`navigation${index}`"
-            class="block py-2"
+            class="py-2"
             data-headlessui-state="open"
           >
-            <NuxtLink @click="handleClose(false)" :to="path">
+            <NuxtLink class="w-full" @click="handleClose(false)" :to="path">
               {{ label }}
             </NuxtLink>
           </li>

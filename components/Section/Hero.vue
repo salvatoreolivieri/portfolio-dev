@@ -5,6 +5,7 @@ defineProps({
   placeholder: String,
   text: String,
   isContactPage: Boolean,
+  isHomePage: Boolean,
 })
 </script>
 
@@ -18,5 +19,7 @@ defineProps({
     <UtilityMarkdown class="paragraph" :content="text" />
 
     <UtilityButtonContact v-if="isContactPage" />
+
+    <CreativeSeaMode v-if="isHomePage" />
   </div>
 </template>
