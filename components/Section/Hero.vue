@@ -16,7 +16,7 @@ defineProps({
     <h1 class="title">{{ title }}</h1>
     <h3 class="subtitle">{{ subtitle }}</h3>
 
-    <UtilityMarkdown class="paragraph" :content="text" />
+    <UtilityMarkdown class="paragraph text-center" :content="text" />
 
     <UtilityButtonContact v-if="isContactPage" />
 

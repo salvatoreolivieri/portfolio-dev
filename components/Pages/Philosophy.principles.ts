@@ -59,11 +59,11 @@ export const philosophy = [
     
     We are used to think about the different halves that live within us as two distinct and separate wholes.
     
-    ![Order and Chaos separated](/img/ordine-caos-separate.png)
+    ![Order and Chaos separated](/img/order-chaos-linked.jpg)
     
     When the truth is there are two subsets that are part of the same element.
     
-    ![Order and Chaos linked](/img/ordine-caos-linked.png)
+    ![Order and Chaos linked](/img/order-chaos-separate.jpg)
     
     Your identity follow the same logic:
     

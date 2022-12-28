@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionPhilosophy />
+    <PagesPhilosophy />
   </div>
 </template>

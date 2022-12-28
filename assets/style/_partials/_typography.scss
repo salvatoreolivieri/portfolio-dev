@@ -2,6 +2,10 @@
   @apply md:text-6xl mb-1 md:mb-3 font-bold text-3xl dark:text-zinc-100 text-zinc-800;
 }
 
+.title-md {
+  @apply md:text-5xl mt-6 mb-4 md:mt-10 md:mb-6 font-bold text-3xl dark:text-zinc-100 text-zinc-800;
+}
+
 .subtitle {
   @apply text-lg md:text-4xl text-gray-300 dark:text-gray-500 mb-6 md:mb-10;
 }
@@ -11,5 +15,5 @@
 }
 
 .paragraph {
-  @apply text-zinc-600 dark:text-zinc-200 text-center md:text-lg mb-10 px-4 md:px-0;
+  @apply text-zinc-600 dark:text-zinc-200 md:text-lg mb-10;
 }

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionProject />
+    <PagesProject />
   </div>
 </template>
