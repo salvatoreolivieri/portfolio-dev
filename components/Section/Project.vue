@@ -14,7 +14,7 @@ import { projectList } from "./ProjectList"
     <p class="text-zinc-600 dark:text-zinc-200 md:text-lg mb-10">
       In this page you can find
       <strong>all the project I have developed</strong>. Each project is a
-      <strong>peace of me</strong> created created with <strong>joy</strong> and
+      <strong>peace of me</strong> created with <strong>joy</strong> and
       <strong>enthusiasm</strong>.
     </p>
 
@@ -22,7 +22,7 @@ import { projectList } from "./ProjectList"
       v-for="({ projects, title }, index) in projectList"
       :key="`project${index}`"
     >
-      <h3 class="mb-4 text-xl font-bold dark:text-zinc-100 text-zinc-800">
+      <h3 class="mb-4 text-2xl font-bold dark:text-zinc-100 text-zinc-800">
         {{ title.label }}
       </h3>
 
@@ -35,7 +35,7 @@ import { projectList } from "./ProjectList"
       </div>
     </div>
 
-    <h3 class="mb-4 text-xl font-bold dark:text-zinc-100 text-zinc-800">
+    <h3 class="mb-4 text-2xl font-bold dark:text-zinc-100 text-zinc-800">
       Technologies Used Daily
     </h3>
 

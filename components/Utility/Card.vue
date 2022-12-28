@@ -16,7 +16,7 @@ const showModal = ref(false)
   <div
     class="w-full min-h-[100px] ring-1 ring-zinc-100 rounded-lg max-w-[350px] md:min-h-[175px] relative"
   >
-    <img class="rounded-lg" src="../../assets/img/Netflix.png" />
+    <img class="rounded-lg h-full w-full" :src="image" alt="" />
 
     <UtilityLabel
       @click="showModal = true"
@@ -36,7 +36,7 @@ const showModal = ref(false)
         >
           <!-- Modal header -->
           <div
-            class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600"
+            class="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-600"
           >
             <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
               {{ name }}
@@ -56,15 +56,18 @@ const showModal = ref(false)
             >
               <strong>Concept</strong>: {{ concept }} <br />
             </p>
-            <div
-              class="mb-20 md:px-0 gap-2 flex flex-wrap flex-col md:flex-row"
-            >
+            <div class="flex gap-3 flex-wrap">
               <UtilityLabel
                 v-for="(technology, index) in technologies"
                 :key="`technology${index}`"
                 :text="technology"
               />
             </div>
+            <!-- <div
+              class="mb-20 md:px-0 gap-2 flex flex-wrap flex-col md:flex-row"
+            >
+              
+            </div> -->
           </div>
           <!-- Modal footer -->
           <div
@@ -75,9 +78,9 @@ const showModal = ref(false)
               v-if="path"
               :href="path"
               class="text-zinc-800 bg-[#f4867e] hover:bg-[#f4867e]/80 focus:outline-none font-bold rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#f4867e]/90 dark:hover:bg-[#f4867e] flex items-center gap-2"
-              >
+            >
               <IconsLink />
-              Visit Website</a
+              Visit</a
             >
 
             <a

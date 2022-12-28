@@ -7,7 +7,7 @@ export const projectList = [
       {
         name: "Italian Philosophy Blog (salvatoreolivieri.net)",
         concept: "philosophy",
-        image: "salvatore-olivieri-blog.png",
+        image: "/img/salvatore-olivieri-blog.png",
         technologies: ["11ty", "HTML", "CSS", "Javascript", "Bootstrap"],
         path: "https://salvatoreolivieri.net/",
         github: "",
@@ -17,7 +17,7 @@ export const projectList = [
         name: "Arcade Mania",
         concept:
           "One of my first frontend project, happy to share it spontaneously to remember where I came from",
-        image: "arcade-mania.png",
+        image: "/img/arcade-mania.png",
         technologies: ["HTML", "CSS", "Javascript"],
         path: "https://arcade-mania.netlify.app/",
         github: "",
@@ -33,7 +33,7 @@ export const projectList = [
       {
         name: "Netflix",
         concept: "technology used",
-        image: "",
+        image: "/img/Netflix.png",
         technologies: ["VueJs", "HTML", "CSS", "Javascript", "Bootstrap"],
         github: "",
         comingSoon: false,
@@ -41,7 +41,7 @@ export const projectList = [
       {
         name: "WhatsApp Web",
         concept: "technology used",
-        image: "",
+        image: "/img/WhatsappWeb-Dark.png",
         technologies: ["VueJs", "HTML", "CSS", "Javascript", "Bootstrap"],
         github: "",
         comingSoon: false,
@@ -49,7 +49,7 @@ export const projectList = [
       {
         name: "Spotify Web",
         concept: "technology used",
-        image: "",
+        image: "/img/Spotify.png",
         technologies: ["HTML", "CSS", "Javascript"],
         github: "",
         comingSoon: false,
@@ -57,7 +57,7 @@ export const projectList = [
       {
         name: "Discord",
         concept: "technology used",
-        image: "",
+        image: "/img/Discord.png",
         technologies: ["HTML", "CSS", "Javascript"],
         github: "",
         comingSoon: false,
@@ -65,7 +65,7 @@ export const projectList = [
       {
         name: "DC Comics",
         concept: "technology used",
-        image: "",
+        image: "/img/DC-Comics.png",
         technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
         github: "",
         comingSoon: false,
@@ -73,7 +73,7 @@ export const projectList = [
       {
         name: "Dropbox",
         concept: "technology used",
-        image: "",
+        image: "/img/Dropbox.png",
         technologies: ["HTML", "CSS", "Javascript"],
         github: "",
         comingSoon: false,
@@ -81,7 +81,7 @@ export const projectList = [
       {
         name: "Playstation",
         concept: "technology used",
-        image: "",
+        image: "/img/Playstation.png",
         technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
         github: "",
         comingSoon: false,
@@ -90,20 +90,20 @@ export const projectList = [
   },
   {
     title: {
-      label: "BluePrint",
+      label: "BluePrint Ready To Use",
     },
     projects: [
       {
         name: "Nuxt Blueprint",
         concept: "",
-        image: "",
+        image: "/img/nuxt_tailwind.png",
         path: "",
         github: "",
       },
       {
         name: "11ty Blueprint",
         concept: "",
-        image: "",
+        image: "/img/11ty.png",
         path: "",
         github: "",
       },

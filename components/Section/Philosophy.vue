@@ -10,16 +10,18 @@ import { philosophy } from "./PhilosophyPrinciples"
       My Life Philosophy explained
     </h1>
 
-    <p class="text-zinc-600 dark:text-zinc-200 md:text-lg mb-10">
+    <p
+      class="text-zinc-600 dark:text-zinc-200 md:text-lg mb-10 w-full md:w-10/12"
+    >
       <strong>Who am I</strong> and what is the
-      <strong>meaning of life</strong>? <br> Here you can find
+      <strong>meaning of life</strong>? Here you can find
       <strong>my personal answer</strong> explained following four of my most
       profound <strong>paradigms</strong> and <strong>thesis</strong>.
     </p>
 
     <ol class="relative border-l border-gray-200 dark:border-gray-700 mx-2">
       <li
-        v-for="({ subtitle, title }, index) in philosophy"
+        v-for="({ subtitle, title, text }, index) in philosophy"
         :key="`philosophy${index}`"
         class="mb-10 ml-4"
       >
@@ -37,9 +39,13 @@ import { philosophy } from "./PhilosophyPrinciples"
             {{ title }}
           </h3>
         </div>
-        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          text goes here
-        </p>
+        <div class="w-full md:w-[80%]">
+          <UtilityMarkdown
+            class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            :content="text"
+            inline
+          />
+        </div>
       </li>
     </ol>
   </div>

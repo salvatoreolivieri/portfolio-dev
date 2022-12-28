@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Nuxt Blueprint",
+      title: "Salvatore Olivieri Portfolio",
       htmlAttrs: {
         lang: "en",
       },
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
   css: ["@/assets/style/app.scss"],
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
+  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode"],
   colorMode: {
     classSuffix: "",
   },

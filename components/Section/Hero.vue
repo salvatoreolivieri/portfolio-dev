@@ -20,7 +20,7 @@
         class="text-zinc-600 dark:text-zinc-200 text-center md:text-lg mb-10 px-4 md:px-0"
       >
         I am a <strong>creative</strong>, <strong>humble</strong> e and
-        <strong>life enthusiast</strong> Web Software engineer, with a keen
+        <strong>life enthusiast</strong> Italian Web Software engineer, with a keen
         passion for <strong>algorithms</strong> and
         <strong>reality principles</strong>. I love to
         <strong>create</strong> and
