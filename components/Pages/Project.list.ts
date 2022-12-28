@@ -21,8 +21,7 @@ export const projectList = [
       },
       {
         name: "Arcade Mania",
-        concept: `One of my first frontend project where I have developed six vintage game (available only Desktop).
-          Happy to share it spontaneously to remember where I came from.`,
+        concept: `One of my first frontend project where I have developed six vintage game (available only Desktop). Happy to share it spontaneously to remember where I came from.`,
         image: "/img/arcade-mania.png",
         technologies: ["HTML", "CSS", "Javascript"],
         path: "https://arcade-mania.netlify.app/",
@@ -32,7 +31,7 @@ export const projectList = [
   },
   {
     title: {
-      label: "Famous Website Reproduction",
+      label: "Famous Website Reproduction.",
     },
     projects: [
       {
@@ -67,21 +66,21 @@ export const projectList = [
       },
       {
         name: "DC Comics",
-        concept: "Frontend replication of DC Comics Website Homepage",
+        concept: "Frontend replication of DC Comics Website Homepage.",
         image: "/img/DC-Comics.png",
         technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
         github: "https://github.com/salvatoreolivieri/dc-comics-replication",
       },
       {
         name: "Dropbox",
-        concept: "Frontend replication of Dropbox Website Homepage",
+        concept: "Frontend replication of Dropbox Website Homepage.",
         image: "/img/Dropbox.png",
         technologies: ["HTML", "CSS", "Javascript"],
         github: "https://github.com/salvatoreolivieri/dropbox-replication",
       },
       {
         name: "Playstation",
-        concept: "Frontend replication of Playstation Website Homepage",
+        concept: "Frontend replication of Playstation Website Homepage.",
         image: "/img/Playstation.png",
         technologies: ["HTML", "CSS", "Javascript", "Bootstrap"],
         github: "https://github.com/salvatoreolivieri/playstation-replication",
@@ -95,18 +94,16 @@ export const projectList = [
     projects: [
       {
         name: "Nuxt Blueprint",
-        concept: `Here you can find a simple Nuxt + TailwindCSS blueprint Project Configuration ready to use for professional project.
-        
-        Feel free to use it to your own creation.`,
+        concept: `Here you can find a simple Nuxt + TailwindCSS blueprint Project Configuration ready to use for professional project. Feel free to use it to your own creation.`,
         image: "/img/nuxt_tailwind.png",
+        technologies: ["NuxtJs", "Tailwind CSS"],
         github: "https://github.com/salvatoreolivieri/nuxt-blueprint",
       },
       {
         name: "11ty Blueprint",
-        concept: `Here you can find a simple 11ty blueprint Project Configuration ready to use for personal project.
-        
-        Feel free to use it to your own creation`,
+        concept: `Here you can find a simple 11ty blueprint Project Configuration ready to use for personal project. Feel free to use it to your own creation`,
         image: "/img/11ty.png",
+        technologies: ["11ty"],
         github: "https://github.com/salvatoreolivieri/eleventy-blueprint",
       },
     ],

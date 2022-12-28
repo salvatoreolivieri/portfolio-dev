@@ -49,13 +49,13 @@ const showModal = ref(false)
             <UtilityButtonEsc @click="showModal = false" />
           </div>
           <!-- Modal body -->
-          <div class="p-6 space-y-6">
+          <div class="p-6 ">
             <p
               class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
             >
               <UtilityMarkdown inline :content="concept" /> <br />
             </p>
-            <div class="flex gap-3 flex-wrap">
+            <div v-if="technologies" class="flex gap-3 flex-wrap ">
               <UtilityLabel
                 v-for="(technology, index) in technologies"
                 :key="`technology${index}`"
