@@ -15,11 +15,16 @@ const showModal = ref(false)
   <div
     class="w-full min-h-[100px] ring-1 ring-zinc-100 rounded-lg max-w-[350px] md:min-h-[175px] relative"
   >
-    <img class="rounded-lg h-full w-full" :src="image" alt="" />
+    <img
+      @click="showModal = true"
+      class="cursor-pointer rounded-lg h-full w-full"
+      :src="image"
+      alt=""
+    />
 
     <UtilityLabel
       @click="showModal = true"
-      class="absolute w-36 justify-center -bottom-4 left-[50%] -translate-x-1/2 cursor-pointer ring-1 ring-zinc-100 text-gray-900"
+      class="absolute w-36 justify-center -bottom-4 left-[50%] -translate-x-1/2 cursor-pointer ring-1 ring-zinc-100 text-gray-900 dark:ring-zinc-100"
       text="Discover Project"
     />
 
@@ -40,13 +45,8 @@ const showModal = ref(false)
             <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
               {{ name }}
             </h3>
-            <button
-              @click="showModal = false"
-              id="esc"
-              class="esc text-xs w-10 text-gray-400 p-1 bg-gray-50 rounded-md dark:bg-zinc-800/90 dark:text-zinc-200 ring-[#dee2e6] ring-1 dark:ring-zinc-900/5"
-            >
-              esc
-            </button>
+
+            <UtilityButtonEsc @click="showModal = false" />
           </div>
           <!-- Modal body -->
           <div class="p-6 space-y-6">
@@ -71,7 +71,7 @@ const showModal = ref(false)
               target="_blank"
               v-if="path"
               :href="path"
-              class="text-zinc-800 bg-[#f4867e] hover:bg-[#f4867e]/80 focus:outline-none font-bold rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#f4867e]/90 dark:hover:bg-[#f4867e] flex items-center gap-2"
+              class="text-zinc-700 hover:text-zinc-800 bg-[#f4867e] hover:bg-[#f4867e]/80 focus:outline-none font-bold rounded-lg text-sm px-5 py-2.5 text-center dark:bg-[#f4867e]/90 dark:hover:bg-[#f4867e] flex items-center gap-2"
             >
               <IconsLink />
               Visit</a

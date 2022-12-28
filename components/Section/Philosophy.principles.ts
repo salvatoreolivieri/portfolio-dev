@@ -26,7 +26,7 @@ export const philosophy = [
     
     **The self is nothing more than a simple illusion attached to an identity built on the basis of past stories: you are nothing and at the same time you can be anything.**
     
-    everyone wants to grow and improve themselves, but this is impossible if you aren't willing to let go parts of yourself.
+    Everyone wants to grow and improve themselves, but this is impossible if you aren't willing to let go parts of yourself.
     
     At this precise moment there are two self: the **perceived self** (the person and identity that you feel yours right now) and the **potential self** (the person you can potentially become at any moment).
     
@@ -46,7 +46,7 @@ export const philosophy = [
     
     By playing the parts of the **puppet** and the **puppeteer**, i influence the variables, dominate the game and **govern the fate of my future**.
     
-    **i am a meaning-making animal in a meaningless world**.
+    **I am a meaning-making animal in a meaningless world**.
     
     I live everyday open to let myself become **far from the noise**, out of a **moral sense of context**, far beyond the **conventions of right and wrong**.`,
   },
@@ -69,8 +69,7 @@ export const philosophy = [
     
     ![Personality](/img/personality.jpg)
 
-    
-    you are probably more **introverted** than **extroverted**, **rational** rather than **emotional** and careful rather than instinctive but the potential of your other halves dwells within you, you just have to develop it.
+    You are probably more **introverted** than **extroverted**, **rational** rather than **emotional** and careful rather than instinctive but the potential of your other halves dwells within you, you just have to develop it.
     
     The ultimate goal that **moves** and **justifies** my every behavior is in the desire to **integrate every single part of me**, overcome **traumas**, **fears**, **wounds** and **develop inner completeness**.`,
   },
@@ -79,19 +78,19 @@ export const philosophy = [
     title: "The meaning of life",
     text: `If (identity === illusion && orderandchaoscoesistinsideofyou) {ask: so who the fuck am i? }
 
-    heres the answer: **i am the life meeting itself through experience**.
+    Here's the answer: **I am the life meeting itself through experience**.
     
     Lets me explain that telling you a story.
     
     A university professor during a philosophy lesson on the meaning of things looks at his students and **says to them**:
     
-    *"if i were a superior being capable of getting everything he wanted i think i would be bored, so you know what i would do? I would create a world governed by duality (light/shadow  harmony/chaos), i would divide myself into billions of parts, i would slip into it forgetting that i am a god and i would live inside this video game."*
+    *"If i were a superior being capable of getting everything he wanted i think i would be bored, so you know what i would do? I would create a world governed by duality (light/shadow  harmony/chaos), i would divide myself into billions of parts, i would slip into it forgetting that i am a god and i would live inside this video game."*
     
-    some time ago, in conversation with myself, i asked myself what was the point of all this introspection, all this looking inside and getting lost in the labyrinths created by myself.
+    Some time ago, in conversation with myself, i asked myself what was the point of all this introspection, all this looking inside and getting lost in the labyrinths created by myself.
     
     Here **my personal reflection**:
     
-    growing, achieving more, looking inside and overcoming your limits is **not necessary to achieve happiness**, but it is what makes life damn interesting.
+    Growing, achieving more, looking inside and overcoming your limits is **not necessary to achieve happiness**, but it is what makes life damn interesting.
     
     I've always been looking for tools to live with more **enthusiasm** and **freedom** to be. To let go of any kind of **judgment**, **control**, **idea of separation**, **attachment**, **expectation**, **emotional influences** related to my wounds and live with **union**, **love**, **listening**, **connection** and **kindness**.
     
@@ -112,7 +111,7 @@ export const philosophy = [
     
     Think about it. I am life meeting itself through experience and contributing to the creation of life through the wonder of creating, **is there anything more beautiful than this?**
     
-    i found happiness in **build things**, make things happen, understand how things works, **contribute to project** with a positive impact and **asking myself questions away from the noise**.
+    I found happiness in **build things**, make things happen, understand how things works, **contribute to project** with a positive impact and **asking myself questions away from the noise**.
     
     I found joy in **love**, **authenticity** and **spontaneity of being**, all characteristics that i think everyone has within themselves and that they can cultivate and bring into their daily lives.
     
@@ -120,6 +119,6 @@ export const philosophy = [
     
     I found **gratitude in the everyday process**, living away from instant gratification and in the beauty of reality: the one who is authentic and never perfect.
     
-    **this is my happiness algorithm and this is my life philosophy explained**.`,
+    **This is my happiness algorithm and this is my life philosophy explained**.`,
   },
 ]

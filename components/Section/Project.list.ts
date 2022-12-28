@@ -21,7 +21,7 @@ export const projectList = [
       },
       {
         name: "Arcade Mania",
-        concept: `One of my first frontend project where I have developed six vintage game.
+        concept: `One of my first frontend project where I have developed six vintage game (available only Desktop).
           Happy to share it spontaneously to remember where I came from.`,
         image: "/img/arcade-mania.png",
         technologies: ["HTML", "CSS", "Javascript"],
@@ -95,7 +95,7 @@ export const projectList = [
     projects: [
       {
         name: "Nuxt Blueprint",
-        concept: `Here you can find a simple Nuxt + TailwindCSS blueprint Project Configuration ready to use fro professional project.
+        concept: `Here you can find a simple Nuxt + TailwindCSS blueprint Project Configuration ready to use for professional project.
         
         Feel free to use it to your own creation.`,
         image: "/img/nuxt_tailwind.png",

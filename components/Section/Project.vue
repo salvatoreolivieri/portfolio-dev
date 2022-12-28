@@ -4,7 +4,7 @@ import { projectList } from "./Project.list"
 </script>
 
 <template>
-  <div class="project-wrapper pb-10">
+  <div class="project-wrapper pb-10 container px-4">
     <h1
       class="md:text-5xl mt-6 mb-4 md:mt-10 md:mb-6 font-bold text-3xl dark:text-zinc-100 text-zinc-800"
     >

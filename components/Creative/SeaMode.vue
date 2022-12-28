@@ -257,12 +257,12 @@ setTimeout(() => {
         .rect {
           width: 100px;
           height: 30px;
-          background: #fff;
+          background: #e5e7eb;
           border-radius: 100px;
         }
         .circle {
           border-radius: 100%;
-          background: #fff;
+          background: #e5e7eb;
           position: absolute;
         }
         .circle-lg {
@@ -286,7 +286,6 @@ setTimeout(() => {
       .cloud2 {
         left: 150px;
         top: 10%;
-        opacity: 0.8;
       }
     }
     input:checked + .slider {
@@ -437,6 +436,15 @@ svg {
 @keyframes swingCloud {
   50% {
     transform: translateX(50px);
+  }
+}
+
+.dark {
+  .rect {
+    background-color: #fff !important;
+  }
+  .circle {
+    background-color: #fff !important;
   }
 }
 </style>

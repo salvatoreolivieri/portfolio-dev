@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-// Grid e Layout
-@import "./_partials/containers";
+// Section and Layout
+@import "./_partials/wrapper";
 
-// Font e Typography
+// Font and Typography
 @import "./_partials/font";
 @import "./_partials/typography";
 

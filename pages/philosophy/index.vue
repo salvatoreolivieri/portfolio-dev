@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-4">
+  <div>
     <SectionPhilosophy />
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionHero />
+    <SectionHomePage />
   </div>
 </template>
