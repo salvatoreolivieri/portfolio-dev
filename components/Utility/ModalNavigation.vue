@@ -36,7 +36,7 @@ const handleClose = (value: boolean) => {
             class="py-2"
             data-headlessui-state="open"
           >
-            <NuxtLink class="w-full" @click="handleClose(false)" :to="path">
+            <NuxtLink class="w-full block" @click="handleClose(false)" :to="path">
               {{ label }}
             </NuxtLink>
           </li>
