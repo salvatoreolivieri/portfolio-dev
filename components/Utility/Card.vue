@@ -6,7 +6,6 @@ defineProps({
   technologies: Array,
   path: String,
   github: String,
-  comingSoon: Boolean,
 })
 
 const showModal = ref(false)
@@ -97,5 +96,3 @@ const showModal = ref(false)
     </div>
   </div>
 </template>
-
-<style scoped lang="scss"></style>

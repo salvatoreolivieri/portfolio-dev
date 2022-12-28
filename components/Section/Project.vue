@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { technologies } from "./Technologies"
-import { projectList } from "./ProjectList"
+import { technologies } from "./Project.technologies"
+import { projectList } from "./Project.list"
 </script>
 
 <template>

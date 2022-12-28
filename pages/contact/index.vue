@@ -30,8 +30,6 @@
           sharing.
         </p>
 
-        <!-- <UtilityButton text="Explore my philosophy" path="/philosophy" /> -->
-
         <div
           class="animate-pulse mt-4 w-32 bg-[#F4867E] rounded-full flex justify-center items-center h-32 talk-wrapper border border-white"
         >

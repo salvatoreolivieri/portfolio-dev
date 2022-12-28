@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { philosophy } from "./PhilosophyPrinciples"
+import { philosophy } from "./Philosophy.principles"
 </script>
 
 <template>

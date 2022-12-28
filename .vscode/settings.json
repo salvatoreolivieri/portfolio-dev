@@ -1,0 +1,36 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "i18n-ally.localesPaths": ["./locales"],
+  "i18n-ally.enabledParsers": ["json"],
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "*.vue": "$(capture).*.ts, $(capture).*.js, $(capture).ts, $(capture).js"
+  },
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "graphql"
+  ],
+  "prettier.printWidth": 80,
+  "search.useIgnoreFiles": false,
+  "search.useGlobalIgnoreFiles": true,
+  "scss.lint.unknownAtRules": "ignore",
+  "css.lint.unknownAtRules": "ignore",
+  "i18n-ally.keystyle": "nested",
+  "svg.preview.background": "editor"
+}

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { navigation } from "./Navigation"
+import { navigation } from "./AppHeader.navigation"
 
 type Theme = "light" | "dark"
 
