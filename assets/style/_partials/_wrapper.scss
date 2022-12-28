@@ -1,5 +1,11 @@
+// Wrapper
+
 .container {
   @apply max-w-full md:max-w-[50rem] m-auto;
+}
+
+.container-padded {
+  @apply container px-4 md:px-6;
 }
 
 .header-wrapper {

@@ -1,5 +1,5 @@
 <template>
   <div>
-    <SectionContact />
+    <PagesContact />
   </div>
 </template>
