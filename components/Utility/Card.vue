@@ -26,7 +26,7 @@ const showModal = ref(false)
     <!-- Main modal -->
     <div
       v-if="showModal"
-      class="fixed flex justify-center items-center inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80 opacity-100 p-4"
+      class="fixed flex justify-center items-center inset-0 z-50 bg-zinc-800/40 backdrop-blur-sm dark:bg-black/80 opacity-100 p-4 overflow-scroll"
     >
       <div class="relative w-full h-full max-w-2xl md:h-auto">
         <!-- Modal content -->
@@ -53,7 +53,7 @@ const showModal = ref(false)
             <p
               class="text-base leading-relaxed text-gray-500 dark:text-gray-400"
             >
-              <strong>Concept</strong>: {{ concept }} <br />
+              <UtilityMarkdown inline :content="concept" /> <br />
             </p>
             <div class="flex gap-3 flex-wrap">
               <UtilityLabel
@@ -62,11 +62,6 @@ const showModal = ref(false)
                 :text="technology"
               />
             </div>
-            <!-- <div
-              class="mb-20 md:px-0 gap-2 flex flex-wrap flex-col md:flex-row"
-            >
-              
-            </div> -->
           </div>
           <!-- Modal footer -->
           <div
@@ -83,6 +78,7 @@ const showModal = ref(false)
             >
 
             <a
+              v-if="github"
               target="_blank"
               class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-bold px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600 flex items-center gap-2"
               :href="github"

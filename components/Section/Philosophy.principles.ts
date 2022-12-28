@@ -2,7 +2,7 @@ export const philosophy = [
   {
     subtitle: "Changement and Human Nature",
     title: "The identity illusion",
-    text: `We believe that **people are born this way**, so we say: it's his character", it's his nature", its a family traits".
+    text: `We believe that **people are born this way**, so we say: "it's his character", "it's his nature", "its a family traits".
 
     We believe we have an **identity** and **characteristics** that **define us as people**.
     
@@ -14,7 +14,7 @@ export const philosophy = [
     
     The problem is that, as human beings, **it's normal to want more than what we are**.
     
-    We therefore dream of **growing** and **improving** ourselves and we create the **image of a desired self** and it is here that the gap between the two "i" (current version - desired version) begins.
+    We therefore dream of **growing** and **improving** ourselves and we create the **image of a desired self** and it is here that the gap between the two "I" (current version - desired version) begins.
     
     Every time we tend towards the desired self, a gap is created between **the person we perceive in this moment** and the one we could become. Chaos takes hold in our lives and **paralyzes us**.
     
@@ -24,7 +24,7 @@ export const philosophy = [
     
     I tell you that:
     
-    **the self is nothing more than a simple illusion attached to an identity built on the basis of past stories: you are nothing and at the same time you can be anything.**
+    **The self is nothing more than a simple illusion attached to an identity built on the basis of past stories: you are nothing and at the same time you can be anything.**
     
     everyone wants to grow and improve themselves, but this is impossible if you aren't willing to let go parts of yourself.
     

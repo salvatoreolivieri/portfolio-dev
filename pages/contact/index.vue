@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div class="container">
     <div class="hero-section-wrapper container px-4 md:px-6">
@@ -47,5 +45,3 @@
     </div>
   </div>
 </template>
-
-<style scoped lang="scss"></style>
