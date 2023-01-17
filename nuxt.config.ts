@@ -12,7 +12,7 @@ export default defineNuxtConfig({
         {
           hid: "description",
           name: "description",
-          content: "This is my first Nuxt App",
+          content: "This is my creative portfolio website",
         },
         { name: "format-detection", content: "telephone=no" },
       ],

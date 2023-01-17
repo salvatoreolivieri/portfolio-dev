@@ -2,8 +2,8 @@
   <div class="flex flex-1">
     <NuxtLink to="/">
       <img
-        class="w-10 h-10 rounded-full"
-        src="../../assets/img/salvatore-olivieri.jpg"
+        class="w-12 h-12 rounded-full"
+        src="../../assets/img/salvatore-olivieri.PNG"
         alt="Salvatore Olivieri"
       />
     </NuxtLink>
