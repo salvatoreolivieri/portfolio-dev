@@ -1,0 +1,1 @@
+import{a as e,o as n,b as t}from"./entry.39dd9560.js";const r={},c={class:"flex-shrink-0 text-xs w-10 text-gray-400 p-1 bg-gray-50 rounded-md dark:bg-zinc-800/90 dark:text-zinc-200 ring-[#dee2e6] ring-1 dark:ring-zinc-700 opacity-100"};function o(s,a){return n(),t("button",c," esc ")}const i=e(r,[["render",o]]);export{i as _};
