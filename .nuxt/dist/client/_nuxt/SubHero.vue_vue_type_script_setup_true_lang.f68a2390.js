@@ -1,1 +1,0 @@
-import{_ as n}from"./Markdown.c0a533a6.js";import{h as a,o,b as s,f as r,t as c,e as l,F as i}from"./entry.39dd9560.js";const m={class:"title-md"},u=a({__name:"SubHero",props:{title:String,text:String},setup(t){return(_,p)=>{const e=n;return o(),s(i,null,[r("h1",m,c(t.title),1),l(e,{content:t.text,class:"paragraph md:w-10/12 w-full"},null,8,["content"])],64)}}});export{u as _};

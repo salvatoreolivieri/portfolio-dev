@@ -21,6 +21,22 @@ export const projectList = [
       },
       {
         name: "Arcade Mania",
+        concept: `Inspired to the Tim Urban blog post and totally in love with the memento mori stoic principle, I decide to create the “my life in months generator” to help people value the importance of their time becoming aware of their mortality. [Read more about the philosophy principle behind the idea..](https://life-calendar-generator.netlify.app/#philosophy)`,
+        image: "/img/life-calendar-generator.png",
+        technologies: [
+          "HTML",
+          "CSS",
+          "Tailwind CSS",
+          "Javascript",
+          "VueJs",
+          "NuxtJs",
+        ],
+        path: "https://life-calendar-generator.netlify.app/",
+        github:
+          "https://github.com/salvatoreolivieri/my-life-in-month-generator",
+      },
+      {
+        name: "Arcade Mania",
         concept: `One of my first frontend project where I have developed six vintage game (available only Desktop). Happy to share it spontaneously to remember where I came from.`,
         image: "/img/arcade-mania.png",
         technologies: ["HTML", "CSS", "Javascript"],
