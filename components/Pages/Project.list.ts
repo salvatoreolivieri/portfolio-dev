@@ -31,7 +31,7 @@ export const projectList = [
   },
   {
     title: {
-      label: "Famous Website Reproduction.",
+      label: "Famous Website Reproduction",
     },
     projects: [
       {
